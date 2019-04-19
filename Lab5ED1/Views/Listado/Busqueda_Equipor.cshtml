@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Lab5ED1.Models.Album>
+    @{
+        ViewBag.Title = "Busqueda_Equipor";
+    }
+
+    <h2>El equipo @Model.First().Equipo contiene las siguientes estampillas</h2>
+    <table style="width:100%">
+
+        <tr>
+            <td>Numero estampilla</td>
+            <td>Disponibilidad</td>
+            <td>Cantidad</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            
+            <tr>
+
+                <td>@item.No_Est</td>
+                <td>@item.Disponibilidad</td>
+                <td>@item.Cantidad</td>
+              
+            </tr>
+        }
+    </table>
+

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Lab5ED1.Models.Album>
+@{
+    ViewBag.Title = "Faltantes";
+}
+
+<h2>Las estampillas faltantes son:</h2>
+<table style="width:100%">
+
+    <tr>
+        <td>Equipo</td>
+        <td>Numero estampilla</td>
+        <td>Disponibilidad</td>
+        <td>Cantidad</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@item.Equipo</td>
+            <td>@item.No_Est</td>
+            <td>@item.Disponibilidad</td>
+            <td>@item.Cantidad</td>
+
+        </tr>
+    }
+</table>
+
