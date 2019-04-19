@@ -1,0 +1,6 @@
+# Lab5-ED1-
+Completo solo cambiar ruta de archivos
+Para la carga de datos se debe de iniciar en la ventana iniciar aqui
+Para la busqueda por equipo solo ingresar el nombre del equipo
+Para busqueda de estampa ingresar numero y equipo que son las llaves del segundo diccionario
+Para modificar ingresar el nombre del equipo numero de estampa y cantidad, se modificara en ambos diccionarios
